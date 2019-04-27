@@ -1,5 +1,5 @@
 baseurl = "https://AkitaShiba.github.io"
-title = "Jarvis's share"
+title = "绝味的日常"
 theme = "hugo-theme-cleanwhite-diy"
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
@@ -22,7 +22,7 @@ home = ["HTML", "RSS", "Algolia"]
   title_404 = "你来到了没有知识的荒原 :("
 
   # leancloud storage for page view counter
-  page_view_conter = false 
+  page_view_conter = false
   leancloud_app_id = ""
   leancloud_app_key = ""
 
@@ -33,31 +33,31 @@ home = ["HTML", "RSS", "Algolia"]
   algolia_apiKey = ""
 
   # Sidebar settings
-  sidebar_about_description = "程序员·音乐人·旅行家"
+  sidebar_about_description = "被代码耽误的吉他手"
 
   sidebar_avatar = "img/avatar.jpg"      # use absolute URL, seeing it's used in both `/` and `/about/`
 
-  featured_tags = true 
-  featured_condition_size = 1 
+  featured_tags = true
+  featured_condition_size = 1
 
   # Baidu Analytics
   ba_track_id = ""
-  
+
   # We need a proxy to access Disqus api in China
   # Follow https://github.com/zhaohuabing/disqus-php-api to set up your own disqus proxy
   disqus_proxy = ""
   disqus_site = ""
 
-  #Enable wechat pay & alipay to allow readers send reward money if they like the articles 
-  reward = false 
-  # reward_guide = "如果这篇文章对你有用,请随意打赏" 
+  #Enable wechat pay & alipay to allow readers send reward money if they like the articles
+  reward = false
+  # reward_guide = "如果这篇文章对你有用,请随意打赏"
 
   friends = false
   bookmarks = false
   about_me = true
 
   [params.social]
-  rss            = true 
+  rss            = true
   email          = "pangjuewei@gmail.com"
   #facebook      = "full profile url in facebook"
   #googleplus    = "full profile url in googleplus"
@@ -69,7 +69,7 @@ home = ["HTML", "RSS", "Algolia"]
   wechat         = "img/wechat.jpg"
   #medium         = "full profile url in medium"
   #pinterest     = "full profile url in pinterest"
-  
+
   [[params.friend_link]]
   title = ""
   href =  ""
@@ -77,7 +77,7 @@ home = ["HTML", "RSS", "Algolia"]
   [[params.bookmark_link]]
   title =  ""
   href =  ""
-  
+
   [[params.addtional_menus]]
   title =  "关于本站"
   href =  "/site/"
@@ -90,4 +90,4 @@ notAlternative = true
 
 [params.algolia]
 vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
-params = ["categories", "tags"] 
+params = ["categories", "tags"]
